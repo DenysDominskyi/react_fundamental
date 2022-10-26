@@ -46,8 +46,10 @@ const PostForm = ({create}) => {
                 ref={bodyInputRef}
                 type='text'
                 placeholder='Description'
-            /> */}
-            <MyButton onClick={addNewPost}>Create Post</MyButton>
+            /> */ }
+            <div style={{width: '100%', textAlign: 'start'}}>
+                <MyButton onClick={addNewPost}>Create Post</MyButton>
+            </div>
         </form>
     )
 }
